@@ -12,8 +12,12 @@
 • Conectar el robot Phantom X Pincher con MATLAB o Python usando ROS. <br>
 
 ## Desarrollo:
-
-
+Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
+**1.**    0,   0,   0,   0,  0.
+**2.**   -25,  15, -20,  20, 0.
+**3.**    35, -35,  30, -30, 0.
+**4.**   -85,  20, -55,  17, 0.
+**5.**   -80,  35, -55,  45, 0.
 
 A continuación se muestran las posiciones:<br>
 • Posiciones del robot:
