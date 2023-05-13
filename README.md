@@ -13,7 +13,6 @@
 
 ## Desarrollo:
 Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
-Copy
 | Pose | Valores articulares |
 |------|---------------------|
 | 1   | 0, 0, 0, 0, 0.       |
