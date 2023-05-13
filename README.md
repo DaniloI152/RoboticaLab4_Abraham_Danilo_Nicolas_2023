@@ -16,15 +16,48 @@
 
 
 A continuación se muestran las posiciones:<br>
-• Posición Home:
-![](https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosHome.gif)
-• Posición 2:
+• Posición 1 - Home:
 <div>
   <p style = 'text-align:center;' align="center">
-    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos2.gif" width="800px">
+    <img src="ttps://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosHome.gif" width="500px">
   </p>
   <p style = 'text-align:center;' align="center">
     Figura 1. Movimiento de la tortuga con Matlab.
   </p>
 </div>
-
+• Posición 2:
+<div>
+  <p style = 'text-align:center;' align="center">
+    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos2.gif" width="500px">
+  </p>
+  <p style = 'text-align:center;' align="center">
+    Figura 1. Movimiento de la tortuga con Matlab.
+  </p>
+</div>
+• Posición 3:
+<div>
+  <p style = 'text-align:center;' align="center">
+    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos3.gif" width="500px">
+  </p>
+  <p style = 'text-align:center;' align="center">
+    Figura 1. Movimiento de la tortuga con Matlab.
+  </p>
+</div>
+• Posición 4:
+<div>
+  <p style = 'text-align:center;' align="center">
+    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos4.gif" width="500px">
+  </p>
+  <p style = 'text-align:center;' align="center">
+    Figura 1. Movimiento de la tortuga con Matlab.
+  </p>
+</div>
+• Posición 5:
+<div>
+  <p style = 'text-align:center;' align="center">
+    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos5.gif" width="500px">
+  </p>
+  <p style = 'text-align:center;' align="center">
+    Figura 1. Movimiento de la tortuga con Matlab.
+  </p>
+</div>
