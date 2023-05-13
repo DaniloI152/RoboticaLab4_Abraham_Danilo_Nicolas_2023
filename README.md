@@ -12,3 +12,13 @@
 • Conectar el robot Phantom X Pincher con MATLAB o Python usando ROS. <br>
 
 ## Desarrollo:
+
+
+
+A continuación se muestran las posiciones:<br>
+• Posición Home:
+![](https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosHome.gif)
+• Posición 2:
+<p style = 'text-align:center;' align="center">
+  ![](https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos2.gif)
+</p>
