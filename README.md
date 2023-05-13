@@ -5,6 +5,18 @@
 - Nicolás Prieto Solano.
 ## Descripción
 
+
+## Parametros DH del robot Pincher
+El diagrama que describe el robot pincher es el siguiente
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/AbrahamFelipe/RoboticaLab1_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/herramientaInventor.PNG" width="300px" >
+</p>
+</div>
+
+
+
 ## Objetivos:
 • Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel AX-12 del robot Phantom X Pincher. <br>
 • Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher. <br>
