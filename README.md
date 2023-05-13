@@ -28,7 +28,7 @@ A continuación se muestran las posiciones:<br>
 • Posición 2:
 <div>
   <p style = 'text-align:center;' align="center">
-    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos2.gif" width="500px">
+    <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Pos2.gif" width="400px">
   </p>
   <p style = 'text-align:center;' align="center">
     Figura 1. Movimiento de la tortuga con Matlab.
