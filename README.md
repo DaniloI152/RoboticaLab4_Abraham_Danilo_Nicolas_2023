@@ -21,7 +21,7 @@ Se realizan las siguientes poses generadas a partir de los valores articulares d
 | 4   | -85, 20, -55, 17, 0|
 | 5   | -80, 35, -55, 45, 0|
 
-A continuación se muestran las posiciones, teniendo en cuenta que nuestro Home fue tomado con los valores articulares de 0, 0, 0, 0, 0,  :<br>
+A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Home** fue tomado con los valores articulares de 0, 0, 0, 0, 0,  :<br>
 • Posiciones del robot:
 <div>
   <p style = 'text-align:center;' align="center">
