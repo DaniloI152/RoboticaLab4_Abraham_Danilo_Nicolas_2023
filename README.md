@@ -95,4 +95,5 @@ A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Hom
     Posición 1-Home, 2, 3, 4 y 5.
   </p>
 </div>
-
+A continuación se muestra el video donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
+<a href="https://www.youtube.com/watch?v=clO8sN_ds0M" target='blank'><img width=500px src="Videos/Miniatura1.png"/></a>
