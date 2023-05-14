@@ -101,5 +101,7 @@ A continuación se muestra el video donde el robot alcanza cada una de las posic
     <img width="500px" src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Video.png"/>
   </a>
 </p>
-
-
+## Conclusiones:
+• El programa desarrollado se ejecuta en la terminal, ya que esta era una de las opciones posibles para el desarrollo del laboratorio, para futuros laboratorios se espera poder implementar una mejor interfaz, sin embargo, en este trabajo la interfaz cumple su función de llevar a cabo la comunicación humano-máquina <br>
+• <br>
+• <br>
