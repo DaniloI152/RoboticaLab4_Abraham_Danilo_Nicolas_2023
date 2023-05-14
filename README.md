@@ -143,7 +143,7 @@ La comparación de las posiciones reales y las realizadas en Matlab:
 </div>
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC4.png" width="400px" >
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC4.png" width="380px" >
 <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC5.png" width="400px" >
 </p>
 </div>
