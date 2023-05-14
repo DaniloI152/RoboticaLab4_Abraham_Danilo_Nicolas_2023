@@ -104,13 +104,22 @@ Se grafican dichas posiciones en el robot hecho en Matlab. Las posiciones 1(home
 </div>
 <h2>Codigo:</h2>
 <p>En primer lugar se ajusta la configuracion de los motores dentro del archivo de configuracion de dynamixel one motor provisto en la pagina del curso, creando dentro de esta los ajustes para los 5 motores que componen al pincher, con este archivo ya creado se pasa al codigo de python donde se importan las siguientes dependencias.</p>
-<img src='Imagenes/Code-Screenshots/Imports.png' width"500px>
-Las dependencias importadas cumplen las funciones de:
-<ul>
-<li>cmath:pi -->  El valor de pi usado para transformar los valores de los angulos</li>
-                                                       </ul>
-                                                       
-                                                       
+<img src='Imagenes/Code-Screenshots/Imports.png' width"500px">
+<p> El modulo de rospy para el funcionamiento general de ROS dentro de python, numpy para realizar operaciones matematicas dentro del codigo y varios topicos y mensajes propios de ROS.</p>
+<p>La funcion de Join_publisher es la encargadad de inizializar un objeto puplisher con el tema de joint_trajectory que es utilizado dentro del objeto de la clase Publisher creado luego, se entra en un ciclo siempre que rospy no se haya apagado, posteriormente se envian los puntos de guardados al motor, esta funcion es una funcion remanente de pruebas anteriores y no se usa dentro del codigo principal del programa.</p>
+<img src='Imagenes/Code-Screenshots/Joint_publisher.png' width"500px">
+<p> Las funciones callback y listener se encargan de recibir y procesar datos obtenidos de los servomotores del manipulador, para el caso de listener se inizializa el nodo que representa al codigo de python dentro del entorno de ROS, ademas de suscribirlo al topico de los estados de las articulaciones del robot, para el caso de la funcion de callback se crea una variable global que puede ser utilizada por fuera de la funcion, siendo esta definida como la multiplicacion de un dato recibido por lo 180/pi lo que transforma una entrada en radianes a grados.</p>
+<img src='Imagenes/Code-Screenshots/callback-listener.png' width"500px">
+<p>La funcion jointCommand es una funcion que espera a que el servicio de transmitir al motor este disponible, y en cuanto esto pase se intenta enviar el un comando de dynamixel definido como un servicio del entorno de dynamixel, este comando tiene como datos de entrada un numero de comando, un identificador para el motor al que se refiere, el nombre de la direccion de la memoria que debe de modificar el comando y finalmente el valor nuevo que tomara esta posicion de la memoria. Una vez enviado se da un tiempo de espera para ROS y retorna el resultado de la instruccion enviada al manipulador.</p>
+<img src='Imagenes/Code-Screenshots/Joint_command.png' width="500px">
+<p>Se entra a la parte del codigo que sera ejecutada al llamar al archivo desde la consola de comandos, se ejecuta la funcion de listener para inicializar el nodo de ROS y la recepcion de datos enviados por los motores, se imprimen en consola los datos del grupo. Luego se guardan en varias listas las posiciones disponibles para enviar tanto en sus valores de bits como en sus valores en grados, creando luego una lista de listas de las posiciones disponibles, se muestran por pantalla al usuario las posiciones disponibles en sus valores en grados.</p>
+<img src='Imagenes/Code-Screenshots/main1.png' width="500px">
+<p>Se entra al ciclo while que durara durante toda la ejecucion del programa, donde se le pide al usuario digitar un numero de posicion para mandar al pincher, dentro de un ciclo for se envian mediante la funcion join_command las instrucciones a cada uno de los motores de manera individual junto con un torque limite con motivos de precaucion, la posicion real del motor es mostrada en consola al lado del error que tiene con respecto a la posicion ideal del motor.</p>
+<img src='Imagenes/Code-Screenshots/main2.png' width="900px">
+                                                     
+																										
+ 
+                                            
                                                        
 ## Desarrollo:
 Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
