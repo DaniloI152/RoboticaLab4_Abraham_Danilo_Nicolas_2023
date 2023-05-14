@@ -126,3 +126,22 @@ A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Hom
     Posición 1-Home, 2, 3, 4 y 5.
   </p>
 </div>
+A continuación se muestra el video donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=clO8sN_ds0M" target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Video.png"/>
+  </a>
+</p>
+La comparación de las posiciones reales y las realizadas en Matlab:
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC1.png" width="500px" >
+</p>
+</div>
+
+## Conclusiones:
+
+• El programa desarrollado se ejecuta en la terminal, ya que esta era una de las opciones posibles para el desarrollo del laboratorio, para futuros laboratorios se espera poder implementar una mejor interfaz, sin embargo, en este trabajo la interfaz cumple su función de llevar a cabo la comunicación humano-máquina <br>
+• <br>
+• <br>
