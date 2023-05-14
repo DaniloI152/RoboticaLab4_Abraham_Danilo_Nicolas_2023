@@ -1,3 +1,4 @@
+
 ## Laboratorio 4 Robótica
 ### Integrantes: 
 - Danilo Enrique Insuasty Delgado.
@@ -69,17 +70,47 @@ donde:
 </p>
 </div>
 
+El robot contruido con las herramientas SerialLink de matlab se ve de la siguiente forma
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/pose1%20original.PNG" width="400px" >
+</p>
+</div>
+
+Sin embargo la pose Home es cuando el robot se encuentra completamente vertical, es por eso que desde ahora la posicion inicial tiene la siguiente forma.
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/posicion%20home.PNG" width="400px" >
+</p>
+</div>
 
 
-## Desarrollo:
-Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
-| Pose | Valores articulares |
+Teniendo en cuenta las diferentes poses requeridas descritas en las siguiente tabla. 
+
+| Pose | Valores articulares(grados) |
 |------|---------------------|
 | 1   | 0, 0, 0, 0, 0.       |
 | 2   | -25, 15, -20, 20, 0 |
 | 3   | 35, -35, 30, -30, 0 |
 | 4   | -85, 20, -55, 17, 0|
 | 5   | -80, 35, -55, 45, 0|
+
+Se grafican dichas posiciones en el robot hecho en Matlab. Las posiciones 1(home), 2, 3, 4 y 5 son respectivamente
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/collage.png" width="1200px" >
+</p>
+</div>
+
+
+
+
+
+
+## Desarrollo:
+Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
+
 
 A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Home** fue tomado con los valores articulares de 0, 0, 0, 0, 0,  :<br>
 • Posiciones del robot:
@@ -95,22 +126,3 @@ A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Hom
     Posición 1-Home, 2, 3, 4 y 5.
   </p>
 </div>
-A continuación se muestra el video donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=clO8sN_ds0M" target="_blank" rel="noreferrer">
-    <img width="500px" src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Video.png"/>
-  </a>
-</p>
-La comparación de las posiciones reales y las realizadas en Matlab:
-
-<div>
-<p style = 'text-align:center;' align="center">
-<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC1.png" width="500px" >
-</p>
-</div>
-
-## Conclusiones:
-
-• El programa desarrollado se ejecuta en la terminal, ya que esta era una de las opciones posibles para el desarrollo del laboratorio, para futuros laboratorios se espera poder implementar una mejor interfaz, sin embargo, en este trabajo la interfaz cumple su función de llevar a cabo la comunicación humano-máquina <br>
-• <br>
-• <br>
