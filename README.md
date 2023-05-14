@@ -102,12 +102,16 @@ Se grafican dichas posiciones en el robot hecho en Matlab. Las posiciones 1(home
 <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/collage.png" width="1200px" >
 </p>
 </div>
-
-
-
-
-
-
+<h2>Codigo:</h2>
+<p>En primer lugar se ajusta la configuracion de los motores dentro del archivo de configuracion de dynamixel one motor provisto en la pagina del curso, creando dentro de esta los ajustes para los 5 motores que componen al pincher, con este archivo ya creado se pasa al codigo de python donde se importan las siguientes dependencias.</p>
+<img src='Imagenes/Code-Screenshots/Imports.png' width"500px>
+Las dependencias importadas cumplen las funciones de:
+<ul>
+<li>cmath:pi -->  El valor de pi usado para transformar los valores de los angulos</li>
+                                                       </ul>
+                                                       
+                                                       
+                                                       
 ## Desarrollo:
 Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
 
