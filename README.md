@@ -11,9 +11,36 @@ El diagrama que describe el robot pincher es el siguiente
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/AbrahamFelipe/RoboticaLab1_Abraham_Danilo_Nicolas_2023/blob/main/Herramienta/herramientaInventor.PNG" width="300px" >
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/robot%20general.png" width="500px" >
 </p>
 </div>
+Los marcos de referencias para describir el robot a traves de los parametros DH con base en el diagrama del robot pincher y las distancias de las articulaciones ya medidas son:
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/robot%20general%20dh.png" width="500px" >
+</p>
+</div>
+La tabla con los parametros DH se muestra a continuación
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/parametros%20DH.PNG" width="500px" >
+</p>
+</div>
+
+Con los parametros DH se pueden contruir las matrices que describen cada eslabon respecto al otro. Las siguientes son las matrices de cada eslabon
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Matrices%20DH.PNG" width="200px" >
+</p>
+</div>
+
+La matriz de la herramienta es la siguiente.
+
+
+
 
 
 
