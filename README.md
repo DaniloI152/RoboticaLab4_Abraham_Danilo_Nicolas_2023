@@ -3,7 +3,13 @@
 - Danilo Enrique Insuasty Delgado.
 - Abraham Másmela Ramirez.
 - Nicolás Prieto Solano.
-## Descripción
+
+
+## Objetivos:
+• Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel AX-12 del robot Phantom X Pincher. <br>
+• Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher. <br>
+• Manipular los servicios para todos los Joint Controllers del robot Phantom X Pincher. <br>
+• Conectar el robot Phantom X Pincher con MATLAB o Python usando ROS. <br>
 
 
 ## Parametros DH del robot Pincher
@@ -37,18 +43,33 @@ Con los parametros DH se pueden contruir las matrices que describen cada eslabon
 </p>
 </div>
 
-La matriz de la herramienta es la siguiente.
+La matriz de la herramienta es la siguiente. La distancia medida entre el centro del griper y es eslabon es de 1cm.
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/matriz%20tcp.PNG" width="200px" >
+</p>
+</div>
 
 
+la matriz de transformación homogénea desde la base hasta el efector final que es la multiplicacion consecutiva de las matrices mostradas anteriormente es:
 
 
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/matriz%20base%20efector%20final.PNG" width="800px" >
+</p>
+</div>
+
+donde:
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/variables%20matriz%20base%20tcp.PNG" width="300px" >
+</p>
+</div>
 
 
-## Objetivos:
-• Crear todos los Joint Controllers con ROS para manipular servomotores Dynamixel AX-12 del robot Phantom X Pincher. <br>
-• Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher. <br>
-• Manipular los servicios para todos los Joint Controllers del robot Phantom X Pincher. <br>
-• Conectar el robot Phantom X Pincher con MATLAB o Python usando ROS. <br>
 
 ## Desarrollo:
 Se realizan las siguientes poses generadas a partir de los valores articulares de q1, q2, q3, q4, q5. <br>
