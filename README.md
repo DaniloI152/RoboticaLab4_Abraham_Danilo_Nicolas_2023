@@ -96,4 +96,9 @@ A continuación se muestran las posiciones, teniendo en cuenta que nuestro **Hom
   </p>
 </div>
 A continuación se muestra el video donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
-<a href="https://www.youtube.com/watch?v=clO8sN_ds0M" target='blank'><img width=500px src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Video.png"/></a>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=clO8sN_ds0M" target='blank'>
+    <img width=500px src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/Video.png"/>
+  </a>
+</p>
+
