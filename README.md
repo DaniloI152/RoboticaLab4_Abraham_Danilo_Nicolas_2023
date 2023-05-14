@@ -137,9 +137,16 @@ La comparación de las posiciones reales y las realizadas en Matlab:
 <div>
 <p style = 'text-align:center;' align="center">
 <img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC1.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC2.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC3.png" width="500px" >
 </p>
 </div>
-
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC4.png" width="500px" >
+<img src="https://github.com/DaniloI152/RoboticaLab4_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/PosC5.png" width="500px" >
+</p>
+</div>
 ## Conclusiones:
 
 • El programa desarrollado se ejecuta en la terminal, ya que esta era una de las opciones posibles para el desarrollo del laboratorio, para futuros laboratorios se espera poder implementar una mejor interfaz, sin embargo, en este trabajo la interfaz cumple su función de llevar a cabo la comunicación humano-máquina <br>
