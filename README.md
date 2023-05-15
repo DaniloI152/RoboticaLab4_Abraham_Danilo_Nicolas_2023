@@ -163,6 +163,6 @@ La comparación de las posiciones reales y las realizadas en Matlab:
 <br>
 
 ## Conclusiones:
-• Aunque se reconoce que la interfaz podría mejorarse en futuros laboratorios, el programa desarrollado cumple su función de comunicación humano-máquina a través de la terminal. Se espera poder implementar una interfaz más amigable en futuros trabajos. <br>
+• Aunque la interfaz podría mejorarse en futuros laboratorios, el programa desarrollado cumple su función de comunicación humano-máquina a través de la terminal. Se espera poder implementar una interfaz más amigable en futuros trabajos. <br>
 • Los repositorios de referencia fueron fundamentales para el desarrollo de este laboratorio. Si bien se consideraron otros trabajos, se decidió utilizar los archivos incluidos en la carpeta de Dynamixel One Motor, específicamente los tres códigos de la carpeta de scripts. Esto permitió una mayor eficiencia en el desarrollo del programa y una mejor comprensión de los conceptos involucrados en el control de motores Dynamixel. <br>
 
